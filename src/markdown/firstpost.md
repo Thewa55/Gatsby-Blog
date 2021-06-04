@@ -3,7 +3,7 @@ title: 'My first Gatsby page'
 date: 'June 4th, 2021'
 ---
 
-###Learning Gatsby
+Learning Gatsby
 
 Welcome to my first Gatsby page!
 I am experimenting with Gatsby on this project and trying different things.

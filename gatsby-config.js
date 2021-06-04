@@ -14,6 +14,7 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    //added plugins to be able to fetch markdown folders
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -21,6 +22,8 @@ module.exports = {
         path: `${__dirname}/src/markdown`,
       },
     },
+    //remark lets us convert MD to data and html
+    `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
