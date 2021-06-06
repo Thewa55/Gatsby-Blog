@@ -13,7 +13,7 @@ return(
 <Layout>
   <Seo title="Home" />
   <div>
-    <h1>Kenny's Gatsby</h1>
+    <h1>My blog page</h1>
     <h4>{data.allMarkdownRemark.totalCount}</h4>
     {
       data.allMarkdownRemark.edges.map(({node})=> (
@@ -28,7 +28,7 @@ return(
 
 export const query = graphql`
 query MyQuery {
-  allMarkdownRemark(sort: {fields: [frontmatter___date],order: DES}) {
+  allMarkdownRemark(sort: {fields: [frontmatter___date],order: DESC}) {
     edges {
       node {
         id
