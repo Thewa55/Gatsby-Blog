@@ -28,7 +28,7 @@ return(
 
 export const query = graphql`
 query MyQuery {
-  allMarkdownRemark {
+  allMarkdownRemark(sort: {fields: [frontmatter___date],order: DES}) {
     edges {
       node {
         id
