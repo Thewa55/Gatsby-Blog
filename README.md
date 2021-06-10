@@ -1,5 +1,5 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
+<!-- <p align="center">
   <a href="https://www.gatsbyjs.com">
     <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
   </a>
@@ -100,6 +100,39 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 [Build, Deploy, and Host On The Only Cloud Built For Gatsby](https://www.gatsbyjs.com/cloud/)
 
-Gatsby Cloud is an end-to-end cloud platform specifically built for the Gatsby framework that combines a modern developer experience with an optimized, global edge network.
+Gatsby Cloud is an end-to-end cloud platform specifically built for the Gatsby framework that combines a modern developer experience with an optimized, global edge network. -->
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+# Gatsby Blog
+
+## Description
+A blog site created by using Gatsby and GraphQL
+
+## Table of content
+[#Installation](#Installation)<br>
+[#Usage](#Usage)<br>
+[#Technology Used](#Technology)<br>
+[#Credits](#Credits)<br>
+[#License](#License)<br>
+[#Contacts](#Contacts)
+## #Installation
+Just run 'npm install' in terminal to install the dependencies. Once all the dependencies are installed run the Gatsby server with 'npm run develop'. Once compiling is done the default localhost is: 'http://localhost:8000/'.
+## #Usage
+The Gatsby framework will automatically generate a new link and excerpt for each blog post (in a form of a md) in the markdown folder. The blog will also automatically insert the latest blog post at the top of the page. 
+
+The posts are first compiled in node when the Gatsby server runs. A slug is created as a node for GraphQL which is an URL path to each post. Next during the compiling we will use GraphQL to grab each markdown file and generate a page with the blog-post template. Once the server is ready to run, the homepage will grab all the blog posts generated in node and will be mapped in the homepage 
+
+## #Technology
+
+Javascript<br>
+Gatsby.Js<br>
+GraphQL<br>
+
+## #Credits
+
+## #License
+
+## #Contacts
+If you have any further questions or comments, please dont hesitate to contact me at: <kinwai.lam730@gmail.com>
+<br><br>
+<img src="https://avatars2.githubusercontent.com/u/58892198?v=4" width="200"><br>
