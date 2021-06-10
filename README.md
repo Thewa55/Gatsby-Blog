@@ -115,8 +115,10 @@ A blog site created by using Gatsby and GraphQL
 [#Credits](#Credits)<br>
 [#License](#License)<br>
 [#Contacts](#Contacts)
+
 ## #Installation
 Just run 'npm install' in terminal to install the dependencies. Once all the dependencies are installed run the Gatsby server with 'npm run develop'. Once compiling is done the default localhost is: 'http://localhost:8000/'.
+
 ## #Usage
 The Gatsby framework will automatically generate a new link and excerpt for each blog post (in a form of a md) in the markdown folder. The blog will also automatically insert the latest blog post at the top of the page. 
 
