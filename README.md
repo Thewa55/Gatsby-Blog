@@ -133,6 +133,7 @@ GraphQL<br>
 ## #Credits
 
 ## #License
+MIT License
 
 ## #Contacts
 If you have any further questions or comments, please dont hesitate to contact me at: <kinwai.lam730@gmail.com>

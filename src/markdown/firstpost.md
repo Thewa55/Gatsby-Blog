@@ -1,6 +1,7 @@
 ---
 title: 'My first Gatsby page'
 date: 'June 4th, 2021'
+desc: 'Intro to Gatsby'
 ---
 
 Learning Gatsby

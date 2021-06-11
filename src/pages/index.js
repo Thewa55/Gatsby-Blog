@@ -32,6 +32,7 @@ return(
               {node.frontmatter.title} - {node.frontmatter.date}
             </BlogTitle>
           </BlogLink>
+          <p><strong>{node.frontmatter.desc}</strong></p>
           <p>{node.excerpt}</p>
         </div>))
     }
@@ -52,6 +53,7 @@ query MyQuery {
         frontmatter {
           date
           title
+          desc
         }
         excerpt
       }
